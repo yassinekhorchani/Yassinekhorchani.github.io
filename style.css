@@ -1,18 +1,21 @@
 body{
+    padding: 0px;
+    margin: 0px;
     font-family: cursive;
+}
+*{
+    padding: 0px;
+    margin: 0px;
 }
 #cont{
     display: flex;
 }
 #contt{
-    width: 60%;
-    padding-left: 25px;
-    margin-left: 25px;
+    width: 70%;
     border-left: 5px solid yellow;
 }
 header{
     width: 30%;
-    padding: 20px;
     padding-bottom: 100px;
     background-color: black;
     color: white;
@@ -22,7 +25,6 @@ header{
 li img{
     width: 20px;
     height: 20px;
-    margin: 5px;
     margin-bottom: -5px;
 }
 .psk{
@@ -37,30 +39,39 @@ li img{
     padding: 0px;
     margin: 0px;
 }
+p{
+    margin: 25px;
+}
 h1,h2{
+    margin: 25px;
     color: yellow;
     border-bottom: 2px solid yellow;
     width: 80%;
 }
 li{
-    padding:15px;
+    margin: 25px;
+    margin-left: 40px;
+
 }
-img{
+
+.cert{
     width: 30%;
-    margin: 10px;
+    margin: 1.5%;
+    height: 200px;
 }
-nav img:hover{
-    transform: translate(0%,-5%);
+.cert:hover{
+    width: 32%;
+    height: 210px;
+    margin: 0.5%
 }
 .site{
     width: 100%;
     height: 300px;
-    border-radius: 20px;
-}
-.site:hover{
-    transform: translate(0%,0%);
+    overflow: hidden;
 }
 button{
+    font-family: cursive;
+    margin: 20px;
     width:10%;
     height: 30px;
     background-color: #555;
@@ -73,13 +84,31 @@ button{
         display: inline;
     }
     header{
-        width: 90%;
+        width: 100%;
+        border: none;
     }
     #contt{
-        width: 90%;
+        width: 100%;
         margin-left: 0px;
+        border: none;
     }
-    img{
-        width: 90%;
+    .cert{
+        width: 46%;
+        height: 150px;
+    }
+    .cert:hover{
+        width: 48%;
+        height: 160px;
+        margin: 0.5%;
+    }
+    button{
+        font-family: cursive;
+        margin: 0px;
+        width:100%;
+        height: 30px;
+        background-color: whitesmoke;
+        color: gray;
+        border: none;
+        border-radius: 0px;
     }
 }
